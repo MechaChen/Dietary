@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'arial';
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+    background-image: linear-gradient(180deg, rgba(240,170,93,1) 1%, rgba(240,220,142,1) 100%);
+}
+
+h1 {
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1 2px #940a37;
 }
